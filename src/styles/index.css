@@ -1,0 +1,25 @@
+:root {
+  --romantic-color: #ffc7b3;
+  --spring-rain-color: #a6c9a1;
+  --gull-gray-color: #91acb1;
+  --east-bay-color: #4a4b8c;
+  --mirage-color: #1b1d36;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--mirage-color);
+  color: var(--gull-gray-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
